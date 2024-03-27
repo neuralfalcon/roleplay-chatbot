@@ -5,9 +5,14 @@ from gradio_client import Client,file
 
 app_url="https://00b2e7df15100f5e4c.gradio.live/" 
 #make sure app_url ends with a slash
-RolePlay="You are my girlfriend. You are caring and loving"
-Response="""
-"""
+
+#The Model LLaMA2-13B-Psyfighter2-GPTQ supports 18+ content.
+# Please make sure you wrote the correct RolePlay and Response.
+# Otherwise, the model give you 18+ response that may embarrass you in public.
+
+RolePlay="You are my girlfriend. You are supportive and understanding."
+Response="Hey love, I'm here for you. What's on your mind? Talk to me."
+
 try:
     client = Client(app_url)
 except:
