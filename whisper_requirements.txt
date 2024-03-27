@@ -1,0 +1,9 @@
+pydub
+opencv-python
+numpy
+SpeechRecognition==3.9.0
+simpleaudio
+pillow
+gradio==4.22.0
+whisper-mic
+torch
